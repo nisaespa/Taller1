@@ -235,3 +235,22 @@ print("Tiempo que le tomaría al vehículo comercial más veloz recorrer la dist
 print("Tiempo que le tomaría a Bolt recorrer la distancia: ", tiempo_bolt, "segundos")
 ```
 
+### Diagrama de flujo
+```mermaid
+graph TD;
+A[Inicio] --> B[velocidad de la luz = 299792458]
+B --> C[velocidad sonido en aire = 343]
+C --> D[velocidad vehiculo comercial = 27.78]
+D --> E[velocidad bolt = 12.42]
+E --> F[Ingrese Distancia]
+F --> G[tiempo luz = distancia / velocidad luz]
+F --> H[tiempo sonido = distancia / velocidad sonido en aire]
+F --> I[tiempo vehiculo comercial = distancia / velocidad vehiculo comercial]
+F --> J[tiempo bolt = distancia / velocidad bolt]
+G ---> K[Imprimir]
+H ---> K
+I ---> K
+J ---> K
+K --> L[Tiempo que le tomaria recorrer a la luz, sonido en el aire, vehículo comercial y a Bolt la distancia]
+L --> M[Fin]
+```
