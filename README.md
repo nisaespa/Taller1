@@ -1,5 +1,9 @@
 # Primer taller de INDUSPLAYTHON 👽
 
+## Logo:
+
+![](https://raw.githubusercontent.com/nisaespa/Taller1/main/logoindusplaython.png)
+
 ## 1. Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 
 + Adjuntamos pantallazo, nos quedo el 90% bien ✓.
