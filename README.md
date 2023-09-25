@@ -285,7 +285,7 @@ graph TD
     AI --> BT
 ```
 
-Perdón por hacer el pseudocódigo tan feo, igualmente hay opción para acercar 😉.
+Perdón por hacer el diagrama de flujo tan feo, igualmente hay opción para acercar 😉.
 
 ## 10. Escriba un programa que dada una distancia calcule:
 + El tiempo que le tomaría a la luz recorrer la distancia.
