@@ -8,9 +8,9 @@
 
 En el desarrollo del segundo punto posterior a convertir un string a flotante, usamos los condiciionales: "If, elif y else" para determinar cual es el mayor mediante el código
 ```
-N = float(input("ingrese su porqueria: "))
-b =  float(input("ingrese su porqueria: "))
-c =  float(input("ingrese su porqueria: "))
+N = float(input("ingrese un numero real: "))
+b =  float(input("ingrese un numero real: "))
+c =  float(input("ingrese un numero real: "))
 
 
 if N > b and N > c:
