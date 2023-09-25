@@ -1,2 +1,10 @@
 # Primer taller de INDUSPLAYTHON 👽
-![](https://raw.githubusercontent.com/nisaespa/Mi-Primer-Repo/main/1.png)
+
+
+
++ Comenzamos con el primer punto, que es realizar el Python Beginner Quiz 90% bien, adjuntamos pantallazo.
+  
+![](https://raw.githubusercontent.com/nisaespa/Taller1/main/punto1quizpython.jpg)
+
+
+
