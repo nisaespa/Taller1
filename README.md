@@ -211,6 +211,82 @@ elif pais == "san vicente y las granadinas":
 else:
     print("País no identificado")
 ```
+
+### Diagrama de flujo
+```mermaid
+graph TD
+    BE[Inicio] --> A
+    A[Ingresa el nombre de un país de América en minúsculas] --> B[Convertir a minúsculas]
+    B -->|Argentina| C[Buenos Aires]
+    B -->|Bolivia| D[La Paz]
+    B -->|Brasil| E[Brasilia]
+    B -->|Canadá| F[Ottawa]
+    B -->|Chile| G[Santiago]
+    B -->|Colombia| H[Bogotá]
+    B -->|Costa Rica| I[San José]
+    B -->|Cuba| J[La Habana]
+    B -->|Ecuador| K[Quito]
+    B -->|El Salvador| L[San Salvador]
+    B -->|Estados Unidos| M[Washington, D.C.]
+    B -->|Guatemala| N[Ciudad de Guatemala]
+    B -->|Honduras| O[Tegucigalpa]
+    B -->|Jamaica| P[Kingston]
+    B -->|México| Q[Ciudad de México]
+    B -->|Nicaragua| R[Managua]
+    B -->|Panamá| S[Ciudad de Panamá]
+    B -->|Paraguay| T[Asunción]
+    B -->|Perú| U[Lima]
+    B -->|República Dominicana| V[Santo Domingo]
+    B -->|Uruguay| W[Montevideo]
+    B -->|Venezuela| X[Caracas]
+    B -->|Antigua y Barbuda| Y[Saint John's]
+    B -->|Bahamas| Z[Nassau]
+    B -->|Barbados| AA[Bridgetown]
+    B -->|Belice| AB[Belmopán]
+    B -->|Dominica| AC[Roseau]
+    B -->|Granada| AD[St. George's]
+    B -->|Haití| AE[Puerto Príncipe]
+    B -->|Saint Kitts y Nevis| AF[Basseterre]
+    B -->|Santa Lucía| AG[Castries]
+    B -->|San Vicente y las Granadinas| AH[Kingstown]
+    B -->|Otro país| AI[País no identificado]
+    C --> BT[Fin]     
+    D --> BT
+    E --> BT
+    F --> BT
+    G --> BT
+    H --> BT
+    I --> BT
+    J --> BT
+    K --> BT
+    L --> BT
+    M --> BT
+    N --> BT
+    O --> BT
+    P --> BT
+    Q --> BT
+    R --> BT
+    S --> BT
+    T --> BT
+    U --> BT
+    V --> BT
+    W --> BT
+    X --> BT
+    Y --> BT
+    Z --> BT
+    AA --> BT
+    AB --> BT
+    AC --> BT
+    AD --> BT
+    AE --> BT
+    AF --> BT
+    AG --> BT
+    AH --> BT
+    AI --> BT
+```
+
+Perdón por hacer el pseudocódigo tan feo, igualmente hay opción para acercar 😉.
+
 ## 10. Escriba un programa que dada una distancia calcule:
 + El tiempo que le tomaría a la luz recorrer la distancia.
 + El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
